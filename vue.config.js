@@ -47,7 +47,7 @@ module.exports = {
         }
       }
     },
-    after: require('./mock/mock-server.js')
+    // after: require('./mock/mock-server.js')   -- 取消mock数据
   },
   configureWebpack: {
     // provide the app's title in webpack's name field, so that
